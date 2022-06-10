@@ -1,6 +1,6 @@
 {
-  "name": "theme-vdoing-doc",
-  "version": "1.0.0",
+  "name": "rain-bot-doc",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
