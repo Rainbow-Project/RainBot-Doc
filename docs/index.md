@@ -1,11 +1,11 @@
 ---
 home: true
-heroImage: /img/logo.png
+heroImage: /img/vue/logo.png
 heroText: RainBot
 tagline: 一款简洁还算高效的 wows 机器人
 actionText: 开始使用 →
-actionLink: /pages/db294f/
-bannerBg: auto # auto => 网格纹背景 (有 bodyBgImg 时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到 palette.styl 修改 $bannerTextColor 变量
+actionLink: /pages/606815/
+bannerBg: none # auto => 网格纹背景 (有 bodyBgImg 时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到 palette.styl 修改 $bannerTextColor 变量
 
 features: # 可选的
   - title: 简洁而强大
