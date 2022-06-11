@@ -16,4 +16,4 @@ features: # 可选的
     details: 即使第三方 API 出现问题，核心功能依旧可以使用。
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
-postList: detailed
+postList: none
