@@ -1,4 +1,5 @@
 const htmlModules = require('./config/htmlModules.js');
+const {path} = require('@vuepress/utils')
 
 
 module.exports = {
@@ -92,11 +93,6 @@ module.exports = {
 
   // 插件
   plugins: [
-    // [require('./plugins/love-me'), { // 鼠标点击爱心特效
-    //   color: '#11a8cd', // 爱心颜色，默认随机色
-    //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
-    // }],
-
     ['fulltext-search'], // 全文搜索
 
     // ['thirdparty-search', { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
@@ -116,6 +112,7 @@ module.exports = {
     //     }
     //   ]
     // }],
+
     ['one-click-copy', { // 代码块复制按钮
       copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
       copyMessage: '复制成功', // default is 'Copy successfully and then paste it for use.'
@@ -149,7 +146,11 @@ module.exports = {
           return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
         },
       }
-    ]
+    ],
+    "@vuepress/register-components",
+      {
+        componentsDir: path.resolve(__dirname, "./components")
+      }
   ],
 
   markdown: {
