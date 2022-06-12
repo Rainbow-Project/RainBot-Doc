@@ -37,8 +37,10 @@ export default {
   padding: 12px 0;
   font-weight: bold;
   text-align: center;
+  background-color: var(--headerColor);
   color: var(--textColor);
 }
+
 </style>
 
 <style>
